@@ -15,7 +15,7 @@ echo "Конфиг директория: $CONFIG_DIR"
 if [ -f "$VMOPTIONS" ]; then
     BACKUP_FILE="$VMOPTIONS.bak_$(date +%Y%m%d%H%M%S)"
     cp "$VMOPTIONS" "$BACKUP_FILE"
-    echo "📦 Бэкап создан: $BACKUP_FILE"
+    echo "Бэкап создан: $BACKUP_FILE"
 fi
 
 # Записываем оптимизированные параметры

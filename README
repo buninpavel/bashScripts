@@ -1,0 +1,5 @@
+chmod +x optimize_phpstorm.sh
+./optimize_phpstorm.sh
+
+chmod +x fix_phpstorm_vm.sh
+./fix_phpstorm_vm.sh
